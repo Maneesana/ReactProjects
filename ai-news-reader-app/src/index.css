@@ -1,0 +1,84 @@
+#root,
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+}
+#root,
+html,
+body {
+  height: 100vh;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: linear-gradient(
+    to top right,
+    rgba(47, 215, 145, 0.5),
+    rgba(73, 208, 197, 0.5),
+    rgba(131, 71, 196, 0.5)
+  );
+  padding-bottom: 30rem;
+  background-repeat: no-repeat;
+  overflow: scroll;
+  background-attachment: fixed;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.logo-container {
+  margin-top: 2rem;
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+img {
+  width: 4.3rem;
+}
+.image {
+  width: 4.3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text-logo {
+  text-transform: uppercase;
+  font-size: 3.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
+  width: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0;
+}
+.app-name {
+  width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  background: linear-gradient(
+    to top right,
+    rgba(103, 14, 95, 0.5),
+    rgba(8, 93, 76, 0.5),
+    rgba(217, 36, 36, 0.5),
+    rgba(17, 72, 130, 0.5),
+    rgba(132, 12, 64, 0.5)
+  );
+  clip-path: polygon(15% 0%, 90% 0%, 87% 100%, 10% 100%);
+}
+.app-name > h2 {
+  padding: 0.4rem;
+  color: #f5f4f8;
+  letter-spacing: 1px;
+  font-size: 1.9rem;
+  font-weight: 800;
+  font-family: Times, Helvetica, Georgia, "Times New Roman", Times,
+    serif sans-serif;
+  padding-left: 4.3rem;
+  text-transform: uppercase;
+}
